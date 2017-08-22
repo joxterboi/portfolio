@@ -1,0 +1,30 @@
+html, head, body, h1, h2, h3, h4, h5, h6, a, p, img {
+	border:0; margin:0; padding: 0;
+}
+
+/* Homepage */
+.homeNav {
+	background-color: #fff;
+	height: 100px;
+	width: 100%;
+	margin-top: 150px;
+}
+.homeNav h1, a {
+	text-decoration: none;
+	display: inline;
+	margin:0 35px;
+}
+.homeNav a {
+	color: #555;
+	font-family: roboto;
+}
+.homeNav h1 {
+	font-weight: 700;
+	color: #333;
+	font-family: roboto;
+	font-size: 35px;
+}
+.homeMenu {
+	line-height: 100px;
+	text-align: center;
+}
