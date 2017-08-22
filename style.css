@@ -8,23 +8,51 @@ html, head, body, h1, h2, h3, h4, h5, h6, a, p, img {
 	height: 100px;
 	width: 100%;
 	margin-top: 150px;
+	box-shadow: #999 0 2px 5px;
 }
-.homeNav h1, a {
-	text-decoration: none;
-	display: inline;
-	margin:0 35px;
-}
+
 .homeNav a {
 	color: #555;
 	font-family: roboto;
+	background-color: #fff;
+	padding: 40px 70px;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: 400;
 }
-.homeNav h1 {
+.homeNav .name {
 	font-weight: 700;
 	color: #333;
 	font-family: roboto;
 	font-size: 35px;
+	padding: 23px 70px 35px 70px;
+	background-color: #fff;
+	color:#B1D0D3;
 }
 .homeMenu {
-	line-height: 100px;
+	line-height: 88px;
 	text-align: center;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+}
+footer p {
+	color:#fff;
+	font-family: roboto;
+	font-weight: 300;
+}
+.footer {
+	text-align: center;
+	width: 50%;
+	margin-left: 16%;
+}
+footer img {
+	width: 40px;
+	margin-top: -29px;
+	position: relative;
+	right: -490px;
+	margin-left: 25px;
 }
