@@ -6,24 +6,24 @@
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 </head>
-<body>
+<body onload="backgroundImage2()">
 	<header>
 		<nav>
 			<div class="homeNav">
 				<div class="homeMenu">
-					<a href="#">Video</a>
-					<a href="#">Landscape</a>
+					<a href="video.html" class="link">Video</a>
+					<a href="landscape.html" class="link">Landscape</a>
 					<a href="#" class="name">JOAKIM KJELLANDER</a>
-					<a href="#">Architecture</a>
-					<a href="#">Aboute Me</a>
+					<a href="architecture.html" class="link">Architecture</a>
+					<a href="about.html" class="link">Aboute Me</a>
 				</div>
 			</div>
 		</nav>
 	</header>
 	<footer>
-		<div class="footer">
-			<p>&copy; JOAKIM KJELLANDER 2017   |   072 025 75 25   |  JOAKIM@MJET.DE</p> <a href="http://twitter.com"><img src="bilder/twitter-logo.png"></a><a href="http://instagram.com"><img src="bilder/instagram-logo.png"></a>
-		</div>
+		<p>&copy; JOAKIM KJELLANDER 2017   |  <a href="tel:+46720257525">072 025 75 255</a>  |  <a href="mailto:joakim">JOAKIM@MJET.DE</a>
+		<a href="http://twitter.com"><img style="margin-top: -5px" src="bilder/twitter-logo.png"></a>
+		<a href="http://instagram.com"><img src="bilder/instagram-logo.png"></a></p>
 	</footer>
 </body>
 <style>
@@ -37,6 +37,8 @@
 		background-repeat: no-repeat;
 		background-position: center;
 		overflow: hidden;
+		transition: 1s
 	}
 </style>
+<script src="script.js"></script>
 </html>
