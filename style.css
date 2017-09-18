@@ -1,7 +1,12 @@
 div, img, a, h1, h2, h3, h4, h5, h6, a, footer, button, body, html, head, ul, li {margin:0;padding:0;font-family: roboto;}
 body, html {min-height:100%;}
+/*Roboto font guid
+300=light
+400=regular
+500=medium
+*/
 
-/*Glass*/
+/*FrostedGlass Background*/
 .glass::before {
 	content: "";
 	position: absolute;
@@ -21,7 +26,7 @@ footer {
 	margin-top: 460px;
 	text-align: center;
 	width: 410px;
-	height: 60px;
+	height: 60p x;
 	line-height:60px;
 	border-radius: 40px;
 	padding-left: 20px;
@@ -65,4 +70,52 @@ footer a{
 	margin-right: auto;
 	list-style-type: none;
 	line-height: 110px;
+}
+
+/*Photos page menu*/
+#pageMenu {
+	width: 80%;
+	margin:auto;
+	margin-top: 40px;
+	height: 600px;
+	border-radius: 40px;
+}
+#pageMenu ul {
+	list-style-type: none;
+}
+#pageMenu li {
+	margin:auto;
+}
+#pageMenu img {
+	width: 30%;
+	height: auto;
+	margin-top: ;
+	border-radius: 15px;
+}
+
+
+
+
+/*Nav*/
+
+nav {
+	width: 755px;
+	margin: auto;
+	text-align: center;
+	border-radius: 50px;
+	height: 70px;
+	margin-top: 50px;
+}
+
+
+nav ul {
+	list-style-type: none;
+}
+nav ul li a {
+	color:#5A5A5A;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 300;
+	margin:0 60px;
+	line-height: 70px;
 }
