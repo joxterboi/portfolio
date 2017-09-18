@@ -5,6 +5,9 @@ body, html {min-height:100%;}
 400=regular
 500=medium
 */
+* {
+	text-decoration: none;
+}
 
 /*FrostedGlass Background*/
 .glass::before {
@@ -74,27 +77,38 @@ footer a{
 
 /*Photos page menu*/
 #pageMenu {
-	width: 80%;
+	width: 1400px;
 	margin:auto;
 	margin-top: 40px;
 	height: 600px;
 	border-radius: 40px;
+	display: flex;
+	justify-content: center;
 }
-#pageMenu ul {
-	list-style-type: none;
-}
-#pageMenu li {
-	margin:auto;
-}
-#pageMenu img {
-	width: 30%;
+.img {
 	height: auto;
-	margin-top: ;
-	border-radius: 15px;
+	width: 28%;
+	margin-top: 55px;
+	text-align: center;
 }
-
-
-
+.img2 {
+	margin: auto 55px;
+}
+.img img {
+	max-width: 100%;
+	border-radius: 15px
+}
+.img p {
+	color: #fff;
+	font-size: 25px;
+	margin-top: -105px;
+	padding: 20px 0;
+	border-radius: 50px;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+}
 
 /*Nav*/
 
