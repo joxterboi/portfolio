@@ -1,3 +1,5 @@
+
+// Changing background
 var backgroundNumber = 0;
 function backgroundCounter() {
 	setTimeout(function() {			
@@ -20,3 +22,8 @@ function backgroundChange() {
 }
 
 
+//Photo menu hover blur
+function blur() {
+	document.getElementByclassName('img')[0].classList.add("glass");
+	console.log("Hello");
+}
