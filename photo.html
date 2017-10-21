@@ -32,17 +32,35 @@
 		</ul>
 	</nav>
 
+
 	<div id="pageMenu" class="glass">
-		<div class="img" onmouseover="blur()"><img src="images/photos/1.jpg">
-			<a href=""><p class="glass">Architecture</p></a>
+		<div class="img" onmouseenter="hoverGlass();" onmouseleave="hoverGlassRemove();">
+			<div id="masterBlurer">
+				<img src="images/photos/1.jpg">
+				<a href=""><p class="glass">Architecture</p></a>
+			</div>
+			<div id="seeMore"><p onclick="location.href = 'index.html'" class="glass">See More</p></div>
 		</div>
-		<div class="m55 img" onmouseover="blur()"><img src="images/photos/2.jpg">
-			<a href=""><p class="glass">Landscape</p></a>
+		<div class="m55 img" onmouseenter="hoverGlass2();" onmouseleave="hoverGlassRemove2();">
+			<div id="masterBlurer2">
+				<img src="images/photos/2.jpg">
+				<a href=""><p class="glass">Landscape</p></a>
+			</div>
+			<div id="seeMore2"><p onclick="location.href = 'index.html'" class="glass">See More</p></div>
 		</div>
-		<div class="img" onclick='blur()'><img src="images/photos/3.jpg">
-			<a href=""><p class="glass">Compositions</p></a>
+		
+
+		<div class="img" onmouseenter="hoverGlass3();" onmouseleave="hoverGlassRemove3();">
+			<div id="masterBlurer3">
+				<img src="images/photos/3.jpg">
+				<a href=""><p class="glass">Compositions</p></a>
+			</div>
+			<div id="seeMore3"><p onclick="location.href = 'index.html'" class="glass">See More</p></div>
 		</div>
+
+
 	</div>
+
 
 	<footer class="glass" style="margin-top: 100px">
 		<a href="http://instagram.com"><img src="bilder/instagram.png" style="width: 32px; margin:15px 0 0 -37px" alt="">joakim_kjellander</a>
