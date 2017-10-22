@@ -37,18 +37,14 @@ header {
 	height: 500px;
 }
 
-header p {
-	color:#000;
-	text-align: center;
-
-}
 header p, header nav ul li a{
 	color:#fff;
 }
 header p {
-	font-size: 23px;
-	margin-top: 100px;
-	margin-bottom: -15px;
+	font-size: 50px;
+	margin-top: 80px;
+	text-align: center;
+	text-shadow: 1px 1px rgba(0,0,0,0.2)
 }
 
 
@@ -272,4 +268,51 @@ nav ul li a {
 	margin: 35vh auto 0 auto;
 	border-radius: 200px;
 	font-size: 20px
+}
+
+/*IMG Grid*/
+.imgContainer {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 12px;
+	overflow-x: hidden;
+}
+.imgContainer div {
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	overflow: hidden;
+	background-position: center;
+	height: 28vw;
+}
+/* 1/4 wide*/
+.one {
+	width: calc(25% - 9px);
+	margin-top: -28vw;
+}
+.one:nth-child(2) {
+	margin-left: calc(25% + 3px);
+}
+.one:nth-child(3) {
+	margin-left: calc(50% + 6px);
+}
+.one:nth-child(4) {
+	margin-left: calc(75% + 9px);
+}
+.one:first-child {
+	margin-top: 0;
+}
+/* 1/2 wide*/
+.two {
+	width: calc(50% - 6px);
+}
+.two:nth-child(2) {
+	margin-left: calc(50% + 6px);
+	margin-top: -28vw;
+}
+/*3/4 Wide*/
+.three {
+	width: calc(75% - 3px);
+	margin-top: -28vw;
+	margin-left:calc(25% + 3px);
 }
