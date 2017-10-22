@@ -1,4 +1,3 @@
-
 // Changing background
 var backgroundNumber = 0;
 function backgroundCounter() {

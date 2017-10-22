@@ -8,7 +8,9 @@ body, html {min-height:100%;}
 * {
 	text-decoration: none;
 }
-
+body {
+	overflow-x: hidden;
+}
 /*FrostedGlass Background*/
 .glass::before {
 	content: "";
@@ -21,12 +23,42 @@ body, html {min-height:100%;}
 	margin:-20px;
 
 }
+/*Header*/
+header {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0 -100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	overflow: hidden;
+	height: 500px;
+	z-index: -400;
+}
+
+header p {
+	color:#000;
+	text-align: center;
+
+}
+header p, header nav ul li a{
+	color:#fff;
+}
+header p {
+	font-size: 23px;
+	margin-top: 100px;
+	margin-bottom: -15px;
+}
+
+
 
 
 /*Footer*/
 footer {
 	margin:auto;
-	margin-top: 460px;
+	margin-top: 150px;
 	text-align: center;
 	width: 410px;
 	height: 60px;
@@ -34,8 +66,9 @@ footer {
 	border-radius: 40px;
 	padding-left: 20px;
 }
-footer img {
+.footer footer img, footer img {
 	position: absolute;
+	margin-top: 0;
 }
 footer a{
 	color:rgba(0,0,0,0.75);
@@ -43,7 +76,23 @@ footer a{
 	margin: auto 30px;
 	font-size: 20px;
 }
-
+.footer img {
+	width: 100%;
+	position: relative;
+	margin-top: -19%;
+}
+.footer {
+	/*background-color: red;*/
+	height: 300px;
+	width: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0 500px;
+	position: absolute;
+	overflow: hidden;
+	margin-bottom: -40px;
+}
 /*Homepage*/
 .homeNav {
 	width: 100%;
@@ -140,7 +189,7 @@ footer a{
 /*Nav*/
 
 nav {
-	width: 755px;
+	width: 710px;
 	margin: auto;
 	text-align: center;
 	border-radius: 50px;
@@ -159,4 +208,43 @@ nav ul li a {
 	font-weight: 300;
 	margin:0 60px;
 	line-height: 70px;
+}
+
+
+
+/*About me*/
+/*info*/
+.info {
+	width: 90%;
+	margin-left: 5%;
+	border-bottom: solid 1px #999;
+	margin-bottom: 100px;
+}
+.info h1 {
+	color:#555;
+	font-weight: 400;
+	font-size: 35px;
+	margin-left: 7%;
+	margin-top: -70px;
+}
+.info p {
+	margin-left: 9%;
+	color:#777;
+}
+.one-img {
+	height: 200px;
+	margin-left: 70%;
+	margin-top: -125px;
+	margin-bottom: 25px;
+}
+.two-img {
+	margin-left: 69%;
+}
+.two-img img {
+	height: 150px;
+	margin-top: -125px;
+	margin-bottom: 25px;
+}
+.two-img img:last-child {
+	margin-left: 20px;
 }
