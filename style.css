@@ -285,6 +285,13 @@ nav ul li a {
 	background-position: center;
 	height: 28vw;
 }
+/*Vartical grid*/
+.v div{
+	height: 56vw;
+}
+.v .two:nth-child(2) {
+	margin-top: -56vw;
+}
 /* 1/4 wide*/
 .one {
 	width: calc(25% - 9px);
@@ -316,3 +323,15 @@ nav ul li a {
 	margin-top: -28vw;
 	margin-left:calc(25% + 3px);
 }
+.four {
+	width: 100%;
+}
+
+/*Vertical versions*/
+.oneV {
+	width: calc(25% - 9px);
+	margin-top: -28vw;
+}
+
+
+
