@@ -107,7 +107,7 @@ footer a{
 }
 .homeNav ul li a {
 	margin:50px;
-	color: #fff;
+	color: #3E3E3E;
 	font-size:40px;
 	letter-spacing: 7px;
 	text-decoration: none;
@@ -122,9 +122,10 @@ footer a{
 /*Photos page menu*/
 #pageMenu {
 	width: 1400px;
+	height: 600px;
+	max-width: 90%;
 	margin:auto;
 	margin-top: 40px;
-	height: 600px;
 	border-radius: 40px;
 	display: flex;
 	justify-content: center;
@@ -315,4 +316,25 @@ nav ul li a {
 	width: calc(75% - 3px);
 	margin-top: -28vw;
 	margin-left:calc(25% + 3px);
+}
+
+/*MEDIA QUERIES*/
+/*720p Screen query*/
+@media only screen and (max-width:1300px) {
+	/*pageMenu*/
+	#pageMenu {
+		height: 430px;
+		margin-bottom: -60px;
+	}
+	.img {
+	height: 93%;
+	width: 28%;
+	margin-top: 15px;
+	}
+	.m55 {
+	margin: auto 35px;
+	}
+
+	/*Architecture header img*/
+	
 }
