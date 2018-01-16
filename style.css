@@ -286,6 +286,13 @@ nav ul li a {
 	background-position: center;
 	height: 28vw;
 }
+/*Vartical grid*/
+.v div{
+	height: 56vw;
+}
+.v .two:nth-child(2) {
+	margin-top: -56vw;
+}
 /* 1/4 wide*/
 .one {
 	width: calc(25% - 9px);
@@ -318,6 +325,7 @@ nav ul li a {
 	margin-left:calc(25% + 3px);
 }
 
+
 /*MEDIA QUERIES*/
 /*720p Screen query*/
 @media only screen and (max-width:1300px) {
@@ -334,7 +342,3 @@ nav ul li a {
 	.m55 {
 	margin: auto 35px;
 	}
-
-	/*Architecture header img*/
-	
-}
